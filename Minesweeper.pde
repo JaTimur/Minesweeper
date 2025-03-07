@@ -43,6 +43,7 @@ public boolean isWon()
 }
 public void displayLosingMessage()
 {
+    fill(0);
     buttons[NUM_ROWS/2][NUM_COLS/2-2].setLabel("L");
     buttons[NUM_ROWS/2][NUM_COLS/2-1].setLabel("O");
     buttons[NUM_ROWS/2][NUM_COLS/2].setLabel("S");
@@ -50,6 +51,7 @@ public void displayLosingMessage()
 }
 public void displayWinningMessage()
 {
+    fill(0);
     buttons[NUM_ROWS/2][NUM_COLS/2-1].setLabel("W");
     buttons[NUM_ROWS/2][NUM_COLS/2].setLabel("I");
     buttons[NUM_ROWS/2][NUM_COLS/2+1].setLabel("N");
